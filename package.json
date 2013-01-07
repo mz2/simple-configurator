@@ -1,5 +1,5 @@
 {
-  "name": "configurator",
+  "name": "simple-configurator",
   "description": "A really simple configuration package for Node.js.",
   "version": "0.0.1",
   "author": {
@@ -12,10 +12,10 @@
     "json"
   ],
   "main": "./configurator.js",
-  "homepage":"https://github.com/mz2/node-configurator",
+  "homepage":"https://github.com/mz2/simple-configurator",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mz2/node-configurator.git"
+    "url": "git://github.com/mz2/simple-configurator.git"
   },
   "readmeFilename": "README.md",
   "dependencies": {
