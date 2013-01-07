@@ -12,6 +12,7 @@
     "json"
   ],
   "main": "./configurator.js",
+  "homepage":"https://github.com/mz2/node-configurator",
   "repository": {
     "type": "git",
     "url": "git://github.com/mz2/node-configurator.git"

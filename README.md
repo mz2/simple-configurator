@@ -10,7 +10,7 @@ A really simple configuration package for Node.js.
  * By default expects to find configuration files by default under ./config under the current working directory (referred to below as *configDir*).
  * Allows *configDir* to be set to an other value than ./config.
  * Allows defining the environment with the environment variable APP_ENV.
- * By default expects to be running in the environment 'development' (as if run with environment variable APP_ENV='develoment').
+ * By default expects to be running in the environment 'development' (as if run with environment variable APP_ENV='development').
  * Expects the global configuration file at *configDir*/config-global.json
  * Expects the environment specific configuration file at *configDir*/config-$APP_ENV where $APP_ENV is the environment variable naming the current environment.
  * Checks that the same top-level configuration key is not defined in both the global and the environment specific config files.
@@ -25,13 +25,13 @@ Below you'll find an example with a global environment file, as well as a develo
 
 Note that attempting to set the key 'db' in config-global.json below would throw an exception as it is defined in the environment specific configuration file(s), as would attempting to set 'appTitle' in the configuration file in either of config-development.json or config-production.json.
 
-### config/config-global.json -- the global configuration
+### config/config-global.json - the global configuration
 	
 	{
 		"appTitle"     : "Our awesome app"
 	}
 
-### config/config-development.json -- the development environment configuration
+### config/config-development.json - the development environment configuration
 	
 	{
 		"db": {
@@ -40,7 +40,7 @@ Note that attempting to set the key 'db' in config-global.json below would throw
 		}
 	}
 
-### config/config-production.json -- the production environment configuration
+### config/config-production.json - the production environment configuration
 
 	{
 		"db": {
