@@ -17,5 +17,8 @@
     "type": "git",
     "url": "git://github.com/mz2/node-configurator.git"
   },
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "underscore": "1.4.x"
+  }
 }
