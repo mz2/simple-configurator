@@ -1,0 +1,20 @@
+{
+  "name": "configurator",
+  "description": "A really simple configuration package for Node.js.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Matias Piipari",
+    "email": "matias.piipari@gmail.com"
+  },
+  "keywords": [
+    "configuration",
+    "configure",
+    "json"
+  ],
+  "main": "./configurator.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mz2/node-configurator.git"
+  },
+  "readmeFilename": "README.md"
+}
