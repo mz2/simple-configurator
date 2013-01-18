@@ -17,7 +17,7 @@ A really simple configuration package for Node.js.
 
 ## Installation
 
-    $ npm install configurator
+    $ npm install simple-configurator
 
 ## Example
 
